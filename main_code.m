@@ -1,6 +1,6 @@
 clc;clear; close all;
 
-img = imread('waterImg.jpg');
+img = imread('waterImage.jpg');
 
 % Color balance
 img1 = SimplestColorBalance(img);
